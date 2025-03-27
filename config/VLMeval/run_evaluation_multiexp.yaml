@@ -1,0 +1,19 @@
+---
+exp_name: evaluation
+model: CogVLM2
+video_size: [224, 224]
+temperature: 0.0
+input_prompts: egotom_firstbatch/all_prompts.json
+questions: [goal]
+conditions: [last5sec]
+frame_selection: 
+  lastframe: last1
+  last5sec: uniform24
+  last30sec: uniform24
+  fullcontext: uniform24
+video_input_dir: 
+  lastframe: egotom_firstbatch/videos/last5sec
+  last5sec: egotom_firstbatch/videos/last5sec
+  last30sec: egotom_firstbatch/videos/last30sec
+  fullcontext: egotom_firstbatch/videos/fullcontext
+output_dir: egotom_firstbatch/
