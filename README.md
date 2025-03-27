@@ -31,3 +31,4 @@ This repo contains the EgoToM benchmark and example model evaluation code. For V
 ### Example usage
 
 * After setting up model-specific environments and downloading model weights, try `python code/vlm_evaluate.py --config config/VLMeval/run_evaluation_multiexp.yaml`# EgoToM
+# EgoToM
