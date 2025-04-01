@@ -23,7 +23,7 @@ This repo contains the EgoToM benchmark and example model evaluation code. For V
     + `gt_{question}`: correct answer for the question
     + `{question}_choice_{abcd}` columns indicate the choices
     + `clip_start_time` and `clip_end_time` indicate the clip start and end times relative to the original Ego4D video
-* `all_prompts.json` contains the prompts for evaluting VLMs. These prompts are directly generated using columns in `egotom_{question}_shuffled.csv`.
+* `all_prompts.json` contains the prompts for evaluating VLMs. These prompts are directly generated using columns in `egotom_{question}_shuffled.csv`.
     + first level: question type keys `['goal', 'belief', 'actions']`
     + second level: clip UID `cuid` keys to `{'system': str, 'user': str}` prompt pairs.
 
